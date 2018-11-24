@@ -116,7 +116,7 @@ class MAE(Metric):
         return error
 
 #aliases
-RMSE = rmse
-MSE = mse
-SSE = sse
-MAE = mae
+rmse = RMSE 
+mse = MSE
+sse = SSE
+mae = MAE
